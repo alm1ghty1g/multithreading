@@ -25,7 +25,7 @@ public class ProductService {
         log("Total Time Taken : "+ stopWatch.getTime());
         return new Product(productId, productInfo, review);
     }
-    
+
 
     public static void main(String[] args) {
 
